@@ -1,0 +1,79 @@
+ferrocene raw reference potential in V for implicit solvent for different functionals/basis sets and different solvents. Unless specified functional is b3lyp-D3 and basis is 6-31gs.
+
+
+case spcm funcb3lyp (no D3)
+E0_ref water 3.281906148899687
+E0_ref ch2cl2 4.332536537485692
+E0_ref MeCN 4.63210987710688
+E0_ref dmf 4.27983162918251
+
+case spcm funcb3lyp-D3
+E0_ref water 3.2867857098884303
+E0_ref ch2cl2 4.360178061373011
+E0_ref MeCN 4.66224854035885
+E0_ref dmf 4.306868567910564
+
+case spcm funcwb97X-D3
+E0_ref water 3.4204181956602837
+E0_ref ch2cl2 4.564381086986333
+E0_ref MeCN 4.618265132412174
+E0_ref dmf 4.62017121338886
+
+case spcm ωb97-D3
+E0_ref water 3.5915466324367267
+E0_ref ch2cl2 4.728954201637413
+E0_ref MeCN 4.8105694215659955
+E0_ref dmf 5.5865379936707935
+
+case funcwpbeh-D3
+E0_ref water 4.340899631312129
+E0_ref ch2cl2 7.042822750706726
+E0_ref MeCN 4.675738791520931
+E0_ref dmf 5.423016198848681
+
+case spcm funcpbe0-D3
+E0_ref water 3.277717005928557
+E0_ref ch2cl2 4.422915661260347
+E0_ref MeCN 4.472892664093494
+E0_ref dmf 4.364148506483451
+
+case spcm funccamb3lyp-D3
+E0_ref water 3.344554729477603
+E0_ref ch2cl2 6.855460048161421
+E0_ref MeCN 4.492003654368873
+E0_ref dmf 6.786698991619147
+
+
+
+
+Basis sets:
+case spcm basis3-21g
+E0_ref water 3.0603148664293633
+E0_ref ch2cl2 5.389016229891052
+E0_ref MeCN 4.743211253161965
+E0_ref dmf 4.333517826107099
+
+case spcm basis6-31g
+E0_ref water 3.147429802857815
+E0_ref ch2cl2 4.361503960353781
+E0_ref MeCN 4.692804501006333
+E0_ref dmf 5.255341044020683
+
+case spcm basis6-31gs
+E0_ref water 3.2867857098884303
+E0_ref ch2cl2 4.360178061373011
+E0_ref MeCN 4.66224854035885
+E0_ref dmf 4.306868567910564
+
+case spcm basis6-31+gs
+E0_ref water 3.400470215988373
+E0_ref ch2cl2 4.470958065588981
+E0_ref MeCN 4.5244070663568685
+E0_ref dmf 4.534983161036748
+
+case spcm basis6-31++gss
+E0_ref water 3.4056538804748904
+E0_ref ch2cl2 4.484231134566152
+E0_ref MeCN 4.535418817952012
+E0_ref dmf 4.548592056536193
+
